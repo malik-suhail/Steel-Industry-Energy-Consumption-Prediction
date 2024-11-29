@@ -37,6 +37,12 @@ The dataset used in this project is the "Steel Industry Energy Consumption" data
 
 The Random Forest classifier achieved the highest accuracy in predicting the load type of the Steel Industry Energy Consumption dataset.
 
+Correlation Heatmap  
+![Correlation Heatmap](/pic1.png)  
+
+Confusion Matrix  
+![Confusion Matrix](/pic2.png)  
+
 ## Conclusion
 
 This project demonstrates the application of machine learning classification models for predicting load types in the steel industry. Further improvements could be explored by incorporating additional features, experimenting with different models, or tuning hyperparameters.
@@ -57,7 +63,6 @@ This project demonstrates the application of machine learning classification mod
 - `scikit-learn`
 - `matplotlib`
 - `seaborn`
-- `plotly`
 
 ## Contributing
 
