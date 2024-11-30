@@ -25,13 +25,13 @@ The dataset used in this project is the "Steel Industry Energy Consumption" data
 
 ## Project Workflow
 
-1. **Data Import:** Importing the dataset using the `kagglehub` library.
-2. **Exploratory Data Analysis (EDA):** Exploring the dataset using descriptive statistics, visualizations, and correlation analysis to understand the data distribution, relationships between variables, and potential outliers.
-3. **Data Preprocessing:** Transforming categorical features into numerical representations using label encoding.
-4. **Feature Engineering:** Creating new features or transforming existing ones to improve model performance. In this case, dropped `date` feature.
-5. **Model Selection:** Training and evaluating various classification models, including Logistic Regression, KNN, SVM, Decision Tree, Naive Bayes, and Random Forest.
-6. **Hyperparameter Tuning:** Using Grid Search with Cross-Validation to find the optimal hyperparameters for the selected model (Random Forest).
-7. **Model Evaluation:** Evaluating the best model using metrics such as accuracy, confusion matrix, and classification report.
+1. **Data Import**
+2. **Exploratory Data Analysis (EDA)**
+3. **Data Preprocessing**
+4. **Feature Engineering**
+5. **Model Selection**
+6. **Hyperparameter Tuning**
+7. **Model Evaluation**
 
 ## Results
 
@@ -42,32 +42,3 @@ Correlation Heatmap
 
 Confusion Matrix  
 ![Confusion Matrix](/pic2.png)  
-
-## Conclusion
-
-This project demonstrates the application of machine learning classification models for predicting load types in the steel industry. Further improvements could be explored by incorporating additional features, experimenting with different models, or tuning hyperparameters.
-
-
-## Usage
-
-1. Install the required libraries
-2. Run the Jupyter Notebook or Python script containing the project code.
-3. The notebook contains detailed comments and explanations for each step of the workflow.
-4. To reproduce the results, download the Steel Industry Energy Consumption dataset from Kaggle and replace the file path in the code accordingly.
-
-
-## Libraries Used
-
-- `pandas`
-- `numpy`
-- `scikit-learn`
-- `matplotlib`
-- `seaborn`
-
-## Contributing
-
-Contributions to this project are welcome. Please feel free to submit pull requests for bug fixes, enhancements, or new features.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
